@@ -29,8 +29,7 @@ When the map tab is selected, the view displays a map with pins specifying the l
 The user is able to zoom and scroll the map to any location using standard pinch and drag gestures.
  it displays the pin annotation popup, with the student’s name. Tapping anywhere within the annotation will launch Safari and direct it to the link associated with the pin.
 
-<img src="https://github.com/Abdu11a/on-the-map/blob/master/On%20The%20Map/on%20the%20map%20screen/Screen%203.png
-" width=400>
+<img src="https://github.com/Abdu11a/on-the-map/blob/master/On%20The%20Map/on%20the%20map%20screen/Screen%202.png" width=400>
 
 
 **-table View:**
