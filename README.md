@@ -64,6 +64,23 @@ Likewise, if the submission succeeds, then the Information Posting View should b
 
 <img src="https://github.com/Abdu11a/on-the-map/blob/master/On%20The%20Map/on%20the%20map%20screen/Screen%205.png" width=400>
 
+#### Alert Action, when some Network connection issues happen .
+
+ <img src="https://github.com/Abdu11a/on-the-map/blob/master/On%20The%20Map/on%20the%20map%20screen/Screen%206.png" width=400>
+ 
+ ---
+
+ ---
+
+## Requirements to run this app
+
+**To run this app you need to [Downlaod the On The Map](https://github.com/Abdu11a/on-the-map/archive/master.zip).**
+
+### Versions:
+
+- [![Xcode Version](https://img.shields.io/badge/Xcode-10+-success.svg)](https://swift.org) 
+- [![Swift Version](https://img.shields.io/badge/Swift-4+-success.svg)](https://swift.org)
+- [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](https://swift.org)
 
 
 
