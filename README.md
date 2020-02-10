@@ -54,3 +54,16 @@ When the user clicks on the “Find Location” button, the app will forward geo
 
 
 
+
+**- MapPinLocationView:** 
+f the forward geocode succeeds then text fields will be hidden, and a map showing the entered location will be displayed. Tapping the “Finish” button will post the location and link to the server.
+If the submission fails to post the data to the server, then the user should see an alert with an error message describing the failure.
+If at any point the user clicks on the “Cancel” button, then the Information Posting View should be dismissed, returning the app to the Map and Table Tabbed View.
+
+Likewise, if the submission succeeds, then the Information Posting View should be dismissed, returning the app to the Map and Table Tabbed View.
+
+<img src="https://github.com/Abdu11a/on-the-map/blob/master/On%20The%20Map/on%20the%20map%20screen/Screen%205.png" width=400>
+
+
+
+
