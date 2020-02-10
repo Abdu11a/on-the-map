@@ -2,3 +2,17 @@
 
 app with a map that shows information posted by other students. The map will contain pins that show the location where other students have reported studying. By tapping on the pin users can see a URL for something the student finds interesting. The user will be able to add their own data by posting a string that can be reverse geocoded to a location, and a URL.
 [The app use Udacity API](https://www.udacity.com)
+
+
+First, the user logs in to the app using their Udacity username and password. After login, the app downloads locations and links previously posted by other students. These links can point to any URL that a student chooses. We encourage students to share something about their work or interests.
+
+After viewing the information posted by other students, a user can post their own location and link. The locations are specified with a string and forward geocoded.
+
+## the app have three view controller :
+
+**- Login View:**
+Allows the user to log in using their Udacity credentials, The login view accepts the email address and password that students use to login to the Udacity site. User credentials are not required to be saved upon successful login.Clicking on the Sign Up link will open Safari to the Udacity [Sign Up](https://www.udacity.com)
+
+<img src="https://github.com/Abdu11a/on-the-map/blob/master/On%20The%20Map/on%20the%20map%20screen/Screen%201.png" width=400>
+
+If the connection is made and the email and password are good, the app will segue to the Map and Table Tabbed View.
