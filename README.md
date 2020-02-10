@@ -16,3 +16,42 @@ Allows the user to log in using their Udacity credentials, The login view accept
 <img src="https://github.com/Abdu11a/on-the-map/blob/master/On%20The%20Map/on%20the%20map%20screen/Screen%201.png" width=400>
 
 If the connection is made and the email and password are good, the app will segue to the Map and Table Tabbed View.
+
+
+**- map View:** 
+
+ This view has two tabs at the bottom: one specifying a map, and the other a table.
+
+
+When the map tab is selected, the view displays a map with pins specifying the last 100 locations posted by students.
+
+
+The user is able to zoom and scroll the map to any location using standard pinch and drag gestures.
+ it displays the pin annotation popup, with the student’s name. Tapping anywhere within the annotation will launch Safari and direct it to the link associated with the pin.
+
+<img src="https://github.com/Abdu11a/on-the-map/blob/master/On%20The%20Map/on%20the%20map%20screen/Screen%203.png
+" width=400>
+
+
+**-table View:**
+
+When the table tab is selected, the most recent 100 locations posted by students are displayed in a table. Each row displays the name from the student’s Udacity profile. Tapping on the row launches Safari and opens the link associated with the student.
+
+
+Both the map tab and the table tab share the same top navigation bar.
+
+
+<img src="https://github.com/Abdu11a/on-the-map/blob/master/On%20The%20Map/on%20the%20map%20screen/Screen%204.png" width=400>
+
+**- PostingView:** 
+The PostingView View allows users to input their own data.
+
+
+When thePostingView View is modally presented, the user sees two text fields: one asks for a location and the other asks for a link.
+When the user clicks on the “Find Location” button, the app will forward geocode the string. If the forward geocode fails, the app will display an alert view notifying the user. Likewise, an alert will be displayed if the link is empty.
+
+
+<img src="https://github.com/Abdu11a/on-the-map/blob/master/On%20The%20Map/on%20the%20map%20screen/Screen%203.png" width=400>
+
+
+
